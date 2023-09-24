@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="홈"/>
+    <item
+        android:id="@+id/Board"
+        android:enabled="true"
+        android:icon="@drawable/board"
+        android:title="게시판"/>
+    <item
+        android:id="@+id/Mypage"
+        android:enabled="true"
+        android:icon="@drawable/user"
+        android:title="마이페이지"/>
+    <item
+        android:id="@+id/Openchat"
+        android:enabled="true"
+        android:icon="@drawable/openchat"
+        android:title="오픈채팅방"/>
+    <item
+        android:id="@+id/Menu"
+        android:enabled="true"
+        android:icon="@drawable/menu"
+        android:title="메뉴"/>
+</menu>

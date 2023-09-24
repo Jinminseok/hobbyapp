@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Life"
+        tools:targetApi="31">
+        <activity
+            android:name=".NoticePost2"
+            android:exported="false" />
+        <activity android:name=".Musicadd" />
+        <activity android:name=".Bookadd" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CampingPost2"
+            android:exported="false" />
+        <activity
+            android:name=".CampingPost"
+            android:exported="false" />
+        <activity
+            android:name=".FishingPost2"
+            android:exported="false" />
+        <activity
+            android:name=".FishingPost"
+            android:exported="false" />
+        <activity
+            android:name=".MountainPost2"
+            android:exported="false" />
+        <activity
+            android:name=".MountainPost"
+            android:exported="false" />
+        <activity
+            android:name=".BicyclePost2"
+            android:exported="false" />
+        <activity
+            android:name=".BicyclePost"
+            android:exported="false" />
+        <activity
+            android:name=".BallPost2"
+            android:exported="false" />
+        <activity
+            android:name=".BallPost"
+            android:exported="false" />
+        <activity
+            android:name=".GamePost2"
+            android:exported="false" />
+        <activity
+            android:name=".GamePost"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPost2"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPost"
+            android:exported="false" />
+        <activity
+            android:name=".CampingBoard"
+            android:exported="false" />
+        <activity
+            android:name=".FishingBoard"
+            android:exported="false" />
+        <activity
+            android:name=".GameBoard"
+            android:exported="false" />
+        <activity
+            android:name=".MusicAdd.MusicBoard"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".MovieBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHobby"
+            android:exported="false" />
+        <activity
+            android:name=".AdminnoticePost2"
+            android:exported="false" />
+        <activity
+            android:name=".AdminnoticePost"
+            android:exported="false" />
+        <activity
+            android:name=".Adminnotice"
+            android:exported="false" />
+        <activity
+            android:name=".Adminchat"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".TvPost2"
+            android:exported="false" />
+        <activity
+            android:name=".TvPost"
+            android:exported="false" />
+        <activity
+            android:name=".TvPostAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".LikeBoard"
+            android:exported="false" />
+        <activity
+            android:name=".MusicBoard"
+            android:exported="false" />
+        <activity
+            android:name=".BookPost2"
+            android:exported="false" />
+        <activity
+            android:name=".BookPost"
+            android:exported="false" />
+        <activity
+            android:name=".BookBoard"
+            android:exported="false" />
+        <activity
+            android:name=".MoviePost2"
+            android:exported="false" />
+        <activity
+            android:name=".MoviePost"
+            android:exported="false" />
+        <activity
+            android:name=".Post"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Openchatroom"
+            android:exported="false" />
+        <activity
+            android:name=".UserAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".MusicAdd.Musicadd"
+            android:exported="false" />
+        <activity
+            android:name=".BookAdd.Bookadd"
+            android:exported="false" />
+        <activity
+            android:name=".Mountainboard"
+            android:exported="false" />
+        <activity
+            android:name=".BicycleBoard"
+            android:exported="false" />
+        <activity
+            android:name=".BallBoard"
+            android:exported="false" />
+        <activity
+            android:name=".OutsideBoard"
+            android:exported="false" />
+        <activity
+            android:name=".InsideBoard"
+            android:exported="false" />
+        <activity
+            android:name=".TvBoard"
+            android:exported="false" />
+        <activity
+            android:name=".BookAdd.BookBoard"
+            android:exported="false" />
+        <activity
+            android:name=".MovieAdd.MovieBoard"
+            android:exported="false" />
+        <activity
+            android:name=".MovieAdd.Movieadd"
+            android:exported="false" />
+        <activity
+            android:name=".Inquiry"
+            android:exported="false" />
+        <activity
+            android:name=".MovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Notice"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Book.AdminBook"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Music.AdminMusic"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_movie.AdminMovie"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_movie.UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_movie.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_movie.UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Book.UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Book.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Book.UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Music.UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Music.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Music.UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup" />
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="myList" type="id" />
+    <item name="item_post_nickname" type="id" />
+    <item name="recyclerView_like" type="id" />
+</resources>
